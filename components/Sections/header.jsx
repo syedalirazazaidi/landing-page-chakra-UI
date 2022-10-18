@@ -15,9 +15,9 @@ const LayoutLanding = () => {
       wrap="wrap"
       mb={8}
       p={4}
-      px={[20, 12, 32]}
+      px={[6, 32, 32]}
     >
-      <Box>
+      <Box py='18px'>
         <Text fontWeight="600">Logo</Text>
       </Box>
       <Box display={['flex', 'flex', 'flex']} gap={48}>
@@ -35,8 +35,8 @@ const LayoutLanding = () => {
         display={{ base: show ? 'block' : 'none', md: 'block' }}
       >
         <Stack
-          marginTop={['50px', '10px', '10px']}
-          marginLeft={['14px', '10px', '10px']}
+          marginTop={['10px', '10px', '10px']}
+          marginLeft={['62px', '10px', '10px']}
           gap={8}
           textAlign={['center', 'center', 'center']}
           alignItems={['center', 'center', 'center']}
